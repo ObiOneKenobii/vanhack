@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media all (max-width: 50%),
+(min-width: 80%) {
+    body {
+        width: 80%;
+    }
+}
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: (min 60%, 35rem);
+    width: (max 100%, 100rem);
+}
+
+.header {
+    display: flex;
+    border-bottom: 0.5px solid gray;
+}
+
+.header>* {
+    flex-basis: 10% 76% 12%;
+    height: 50px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-grow: 0;
+}
+
+.containerimg {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    margin-right: 2%;
+}
+
+.containerlist {
+    width: 100%;
+}
+
+.containerlist ul {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    display: inline-flex;
+    list-style: none;
+    width: 100%;
+}
+
+.containerlist li {
+    flex-direction: column;
+    display: flex;
+}
+
+.secondpart {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    display: inline-flex;
+    height: 30px;
+}
+
+.secondpart p {
+    flex-direction: column;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*
+.cont2 {
+    border-radius: 8px;
+    display: flex;
+    margin-top: 20px;
+    outline: 1px solid black;
+    box-shadow: 1px 1px 20px;
+} */
+
+.specialsection {
+    margin-top: 4rem;
+}
+
+.specialsection h1 {
+    font-size: 24px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    height: 100px;
+    padding-block: 2rem;
+    margin-inline: auto;
+    outline: 0.5rem;
+    border-radius: 0.5em;
+    margin-top: 40px;
+    gap: 0.1rem;
+    width: (min 90%, 70rem);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1.5rem 1.1rem 1rem;
+    border: 1px solid gray;
+}
+
+.cont2 h1 {
+    font-size: 28px;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+.thirdcontainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 400px;
+    padding-block: 2rem;
+    margin-inline: auto;
+    outline: 0.5rem;
+    border-radius: 0.5em;
+    margin-top: 40px;
+    gap: 1.75rem;
+    width: (min 90%, 70rem);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thirdcontainer aside {
+    background-color: white;
+}
+
+.thirdconp1 {
+    float: left;
+}
+
+.thirdconp2 {
+    float: right;
+    color: rgba(2, 14, 2, 0.671);
+    letter-spacing: 0.1rem;
+}
+
+.thirdcontainer h1 {
+    clear: both;
+    margin-top: 4rem;
+    font-size: 24px;
+    margin-bottom: 4rem;
+}
+
+.thirdcontainerbox {
+    height: 250px;
+    width: (min 90%, 70rem);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0.15rem 0.15rem 0.15rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+
+.specialp {
+    position: absolute;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    background-color: rgb(70, 70, 208);
+    padding: 1rem;
+    width: 10rem;
+    justify-content: center;
+    display: flex;
+    color: white;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+}
+
+.specialp1 {
+    position: relative;
+    left: 13rem;
+    top: 1rem;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+}
+
+#icon2 {
+    display: inline-flex;
+    position: relative;
+    left: 54.5rem;
+    bottom: 5rem;
+}
+
+#icon3 {
+    display: inline-flex;
+    position: relative;
+    left: 59rem;
+    bottom: 10.5rem;
+}
+
+.thirdcontainerbox h1 {
+    margin-top: -9rem;
+    color: rgb(49, 49, 149);
+    clear: both;
+}
+
+.thirdconimg {
+    height: 600px;
+    border-radius: 0.5rem;
+    box-shadow: 0.45rem 0.45rem 0.15rem;
+    border: 1rem solid transparent;
+    font-size: 16px;
+}
+
+.thirdconimg img {
+    margin-top: 2rem;
+    width: 400px;
+    height: 400px;
+    border-radius: 0.5rem;
+}
+
+.thirdconimg h2 {
+    font-size: 24px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
